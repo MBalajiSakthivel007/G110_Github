@@ -1,0 +1,11 @@
+variant,AP50,land_recall,water_recall,land_precision,water_precision,weighted_F1
+0 baseline at threshold 0.5 (before),77.28,68.32,74.12,85.54,82.81,77.36
+1 baseline (raw),77.28,76.31,77.43,74.0,78.76,76.96
+2 denoise (bilateral),75.5,78.09,75.12,66.72,78.77,75.01
+3 CLAHE,77.29,75.91,80.07,66.07,77.8,75.77
+4 denoise + CLAHE,76.11,77.96,78.39,59.57,78.29,74.22
+5a NMS 0.3,75.56,75.01,77.22,74.62,79.44,76.98
+5b NMS 0.5 (default),77.28,76.31,77.43,74.0,78.76,76.96
+5c NMS 0.7,77.53,76.51,77.71,70.86,76.95,75.9
+7 TTA (augment=True),78.83,80.22,78.83,65.5,77.32,75.8
+"6 COCO model, no fine-tuning",59.0,55.52,11.42,94.6,88.54,39.21

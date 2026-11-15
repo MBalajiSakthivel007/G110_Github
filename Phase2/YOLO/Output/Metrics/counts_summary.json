@@ -1,0 +1,20 @@
+{
+  "sunnyisles": {
+    "frames": 199.0,
+    "GT_land_avg": 5.402010050251256,
+    "pred_land_avg": 4.507537688442211,
+    "GT_water_avg": 4.261306532663316,
+    "pred_water_avg": 2.648241206030151,
+    "MAE_land": 1.2663316582914572,
+    "MAE_water": 1.763819095477387
+  },
+  "whitebay": {
+    "frames": 200.0,
+    "GT_land_avg": 17.355,
+    "pred_land_avg": 18.955,
+    "GT_water_avg": 32.62,
+    "pred_water_avg": 33.6,
+    "MAE_land": 2.06,
+    "MAE_water": 2.82
+  }
+}
