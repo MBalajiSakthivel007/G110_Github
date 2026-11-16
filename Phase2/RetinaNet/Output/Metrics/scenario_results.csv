@@ -1,0 +1,6 @@
+group,frames,AP50,land_recall,water_recall,land_precision,water_precision,GT_land,pred_land,GT_water,pred_water
+source: sunnyisles,199,62.51,55.44,51.77,63.27,82.52,1075,942,848,532
+source: whitebay,200,76.67,77.67,74.26,69.88,77.09,3471,3858,6524,6285
+crowd: sparse,143,74.54,73.77,73.64,65.7,75.5,1418,1592,2356,2298
+crowd: moderate,137,74.82,72.95,71.89,69.04,79.6,1464,1547,2437,2201
+crowd: heavy,119,72.07,70.79,69.68,70.92,77.52,1664,1661,2579,2318
